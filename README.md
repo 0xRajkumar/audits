@@ -1,4 +1,4 @@
-## Security audits and bug hunting findings by Rajkumar
+# Security audits and bug hunting findings by Rajkumar
 
 This repository represents my collection of bug hunting findings for my portfolio.
 
@@ -13,3 +13,10 @@ This repository represents my collection of bug hunting findings for my portfoli
 | [Unchecked low level call](Immunefi/README.md#unchecked-low-level-call)                                                                                   | Low           | Aurora       | Immunefi |
 | [Wrong emission of event](Immunefi/README.md#wrong-emission-of-event)                                                                                     | Informational | Revest       | Immunefi |
 | [Wrong implementation of supportsInterface()](Immunefi/README.md#wrong-implementation-of-supportsinterface)                                               | Informational | Revest       | Immunefi |
+
+## Contacts
+
+I am available for smart contract security consulting. Reach out to me on:
+
+- Twitter - [@0xRajkumar](https://twitter.com/0xRajkumar)
+- Discord - [0xRajkumar#1861](https://discordapp.com/users/794774992964550656)

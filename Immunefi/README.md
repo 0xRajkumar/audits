@@ -2,7 +2,7 @@
 
 ## Wrong interest rate calculation
 
-#### Not Reported yet
+#### Not Reported yet [see this](https://twitter.com/0xRajkumar/status/1641754411432132609)
 
 ```
     function getCurrentInterestRate(uint totalBorrow, uint availableBorrow) external pure returns (uint){
@@ -85,6 +85,9 @@ Owner of MasterVault can easily perform reentrancy attack and steal all user fun
 
 ```
 
+Q: How can it steal all tokens by re-entrancy when the .transfer method is used which forwards only 2300 gas to prevent re-entrancy?
+A: I believe that if gas costs are subject to change in the future, the system may become vulnerable or not completely reentrancy-proof [see here](https://twitter.com/0xRajkumar/status/1641834656923373571).
+
 #### References
 
 https://github.com/davos-money/new-davos-smart-contracts/blob/main/contracts/MasterVault/MasterVault.sol#L474
@@ -92,6 +95,13 @@ https://github.com/davos-money/new-davos-smart-contracts/blob/main/contracts/Mas
 #### Impact
 
 Medium
+
+Q: Why Medium?
+A: Risk is high but at the same time difficulty to exploit is also hard that's why i have market it as Medium
+
+##### Outcome
+
+According to Immunefi it was technically valid but because of rule "Attacks requiring access to privileged addresses (governance, strategist)" it was out of scope
 
 ## lend() function always return minted tokens equal to zero.
 

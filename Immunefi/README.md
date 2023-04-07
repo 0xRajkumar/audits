@@ -121,8 +121,8 @@ We have OwnableMulticall contract and Owner of OwnableMulticall can use proxyCal
 
 If bool is false mean call was not successfull then this uses assembly to revert and return "returnData"
 
-Here assembly builtin revert function is used to do this work
-Bug is that it takes two arguments add(returnData,32) and returnData from which second argument passed is wrong instead second argument should be return data size.
+Here assembly builtin revert function is used to do this work.  
+Bug is that it takes two arguments add(returnData,32) and returnData from which second argument passed is wrong instead second argument should be return data size like "mload(returnData)" or "returndatasize()".
 
 ```
     function proxyCalls(Call[] calldata calls) external onlyOwner {
@@ -144,7 +144,7 @@ Because of this mistake it always returns wrong data when it reverts.
 
 #### Refernces
 
-https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/main/solidity/contracts/OwnableMulticall.sol#L54
+https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/1651c78ead3e2325dff5ddc50c64673eab15f5fd/solidity/contracts/OwnableMulticall.sol#L54
 
 #### Impact
 

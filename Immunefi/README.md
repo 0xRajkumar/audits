@@ -49,7 +49,7 @@ Interest = 1 ether *principle*(10/ 1 ether + 30)*duration/10**20 = principle*(10
 
 After doing little math we can see base interest rate applied is 10/1 ether.
 
-#### Refernces
+#### References 
 
 https://github.com/UniLend/unilendv2/blob/main/contracts/pool.sol#L60
 https://github.com/UniLend/unilendv2/blob/main/contracts/interestrate.sol#L14
@@ -107,7 +107,7 @@ According to Immunefi it was technically valid but because of rule "Attacks requ
 
 The function lend() function of Pool.sol always returns zero minted Tokens. This creates issues with frontends that expect valid minted Tokens
 
-#### Refernces
+#### References
 
 https://github.com/UniLend/unilendv2/blob/09fc9be393684a3e4e3588da9d6dea20cac1211f/contracts/pool.sol#L532
 
@@ -142,7 +142,7 @@ Bug is that it takes two arguments add(returnData,32) and returnData from which 
 
 Because of this mistake it always returns wrong data when it reverts.
 
-#### Refernces
+#### References
 
 https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/1651c78ead3e2325dff5ddc50c64673eab15f5fd/solidity/contracts/OwnableMulticall.sol#L54
 
@@ -158,7 +158,7 @@ createCanonicalERC20Wrapper() of SuperTokenFactory calls these methods to get na
 
 We have DAI ERC20 token which is widely used and it returns name and symbol as bytes32 and decimals as uint256 that's why no one can create canonical ERC20 wrapper of DAI because our function expects name and symbol in string.
 
-#### Refernces
+#### References
 
 https://github.com/superfluid-finance/protocol-monorepo/blob/dev/packages/ethereum-contracts/contracts/superfluid/SuperTokenFactory.sol#L129
 

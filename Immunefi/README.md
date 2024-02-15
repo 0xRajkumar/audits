@@ -70,6 +70,29 @@ https://github.com/aurafinance/aura-contracts/blob/main/contracts/core/AuraLocke
 
 Medium
 
+## Persistent DOS to stakeListing function
+
+A user can call stakeListing to create listing by passing unique listing number. If this listing number is not unique then function will revert with AuctionV1: listing already exists. Because of this require condition.
+
+```
+    require(_listings[listing].poster == address(0), "AuctionV1: listing already exists");
+```
+Attack can stop every user to call this function because attacker can do is constantly run a sandwich bot that looks for the stakeListing() transaction and if it sees it, it frontruns it with the same listing number as user provided by decoding user data, which will stop every user to call stakeListing because then user listing number will not be unique.
+
+Whenever attacker will call this function he/she will deposit _listingStake and which can be withdrawn by calling claim function. Attacker can use the same listing number as user but buyout, startingPrice, durationInSeconds, isAuction can be different in such a way that he can withdraw his _listingStake asap.
+
+#### References
+
+https://etherscan.io/address/0x1E061ac5099620148BD64867997F35e0e148C277?utm_source=immunefi#code#F10#L137
+
+#### Impact
+
+Medium
+
+##### Outcome
+
+It was duplicate, that's why it was not paid. 
+
 ## Owner can steal all user funds
 
 Owner of MasterVault can easily perform reentrancy attack and steal all user funds
@@ -149,6 +172,32 @@ https://github.com/hyperlane-xyz/hyperlane-monorepo/blob/1651c78ead3e2325dff5ddc
 #### Impact
 
 Low
+
+## Revert during calling claim function even when listing is closed.
+
+In AuctionV1, we have a 'claim' function that users can call to distribute bid to the poster. Users can only invoke this function when the listing is closed, as determined by a require condition:
+
+```
+    require(isClosed(listing), "AuctionV1: listing is not closed");
+```
+
+The isClosed function should return true when _listings[listing].closed is true, and when block.timestamp has reached _listings[listing].expiration, indicating that the listing is closed.
+
+The problem arises because the function returns true when block.timestamp is greater than _listings[listing].expiration, but it returns false when block.timestamp is equal to _listings[listing].expiration and _listings[listing].closed should be false.
+
+This causes a revert even when block.timestamp has reached _listings[listing].expiration due to the false return value.
+
+#### References
+
+https://etherscan.io/address/0x1E061ac5099620148BD64867997F35e0e148C277?utm_source=immunefi#code#F10#L231
+
+#### Impact
+
+Low
+
+##### Outcome
+
+It was duplicate, that's why it was not paid. 
 
 ## createCanonicalERC20Wrapper reverts on right erc20 implementation.
 

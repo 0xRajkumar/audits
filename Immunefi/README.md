@@ -138,6 +138,33 @@ https://github.com/UniLend/unilendv2/blob/09fc9be393684a3e4e3588da9d6dea20cac121
 
 Low
 
+## The availableReward function may return a higher available reward than actual available reward.
+
+The `availableReward` function in `saETH.sol` calls `_availableReward` to calculate the present reward at that time. This is done by subtracting `totalAssets_` from the total balance of the contract, like: IERC20Upgradeable(asset()).balanceOf(address(this)) - totalAssets_.
+
+The mistake lies in the fact that `totalAssets_` can be lower than expected at that time. Why does this happen? Because it doesn't add the reward until that time to `totalAssets_` due to the fact that `availableReward` decreases every second.
+
+
+#### Recommendation
+The recommendation is to calculate the available reward by subtracting `_currentTotalAssets()` instead of `totalAssets_`.
+
+```solidity
+    function _availableReward() internal view returns (uint256) {
+        return IERC20Upgradeable(asset()).balanceOf(address(this)) - _currentTotalAssets(block.timestamp);
+    }
+```
+
+#### References
+
+https://github.com/aspidanet/aspida-contract/blob/master/contracts/saETH.sol#L348   
+
+
+
+#### Impact
+
+Low
+
+
 ## Wrong use of assembly builtin function.
 
 We have OwnableMulticall contract and Owner of OwnableMulticall can use proxyCalls.In this function we low level call which then returns bool and bytes of data(which is then stored in "returnData").

@@ -19,13 +19,17 @@ This repository represents my collection of bug hunting findings for my portfoli
 | [Wrong emission of event](Immunefi/README.md#wrong-emission-of-event)                                                                                     | Informational | Revest       | 
 | [Wrong implementation of supportsInterface()](Immunefi/README.md#wrong-implementation-of-supportsinterface)                                               | Informational | Revest       | 
 
-## For Contest
+## For Contests
 | Protocol                                                                                                                                             | Findings      | Platform     | 
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | 
 |  Goat Tech                                                                | 3H, 2M          | Cantina      | 
+|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 
 |  Asymmetry                                                                | 2H          | Code4rena      | 
 |  Popcorn                                                                | 1H          | Code4rena      | 
 |  Gamma                                                                | 1M          | Sherlock      | 
+
+## For Private audits
+1. [ArtTech](https://github.com/0xRajkumar/Audits/blob/main/solo/ArtTech.md)
 
 ## Contacts
 

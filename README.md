@@ -29,7 +29,7 @@ This repository represents my collection of bug hunting findings for my portfoli
 |  Gamma                                                                | 1M          | Sherlock      | 
 
 ## For Private audits
-1. [ArtTech](https://github.com/0xRajkumar/Audits/blob/main/solo/ArtTech.md)
+1. [ArtTech](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md)
 
 ## Contacts
 

@@ -20,13 +20,14 @@ This repository represents my collection of bug hunting findings for my portfoli
 | [Wrong implementation of supportsInterface()](Immunefi/README.md#wrong-implementation-of-supportsinterface)                                               | Informational | Revest       | 
 
 ## For Contests
-| Protocol                                                                                                                                             | Findings      | Platform     | 
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | 
-|  Goat Tech                                                                | 3H, 2M          | Cantina      | 
-|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 
-|  Asymmetry                                                                | 2H          | Code4rena      | 
-|  Popcorn                                                                | 1H          | Code4rena      | 
-|  Gamma                                                                | 1M          | Sherlock      | 
+| Protocol                                                                                                                                             | Findings      | Platform     | Rank     | 
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | ------------ | 
+|  Goat Tech                                                                | 3H, 2M          | Cantina      | 3rd  |
+|  MorphL2                                                                | 1H, 3M          | Sherlock      | 4th  |
+|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 4th  |
+|  Gamma                                                                | 1M          | Sherlock      | 3rd  |
+|  Asymmetry                                                                | 2H          | Code4rena      | -  |
+|  Popcorn                                                                | 1H          | Code4rena      | -  |
 
 ## For Private audits
 1. [ArtTech](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md)

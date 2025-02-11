@@ -26,6 +26,7 @@ This repository represents my collection of bug hunting findings for my portfoli
 |  MorphL2                                                                | 1H, 3M          | Sherlock      | 4th  |
 |  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 4th  |
 |  Gamma                                                                | 1M          | Sherlock      | 3rd  |
+|  Mantra Dex                                                                | 3H, 5M          | Code4rena    | 11th  |
 |  Asymmetry                                                                | 2H          | Code4rena      | -  |
 |  Popcorn                                                                | 1H          | Code4rena      | -  |
 

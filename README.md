@@ -1,8 +1,35 @@
-# Security audits and bug hunting findings by Rajkumar
 
-This repository represents my collection of bug hunting findings for my portfolio.
+# About me
+Security researcher with over 2 years of experience identifying and mitigating critical vulnerabilities in high-profile blockchain protocols. I have consistently secured top 5 rankings in numerous contests on platforms such as Cantina, Sherlock, and Cyfrin.
 
-## For Immunefi findings
+## Private audits
+
+| Protocol   | Provider      | Report     |  
+| -------- | -------- | ------- |
+|  Yuga NFT Mirror |  GuardianAudits | [Soon]() 
+|  Synthetix TLX |  GuardianAudits | [Soon]() 
+|  Orderly Network |  GuardianAudits | [Soon]() 
+|  ArtTech |  Art.Tech | [Link](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md) 
+
+
+
+## Contests
+| Protocol                                                                                                                                             | Findings      | Platform     | Rank     | 
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | ------------ | 
+|  Farcaster-Attestation                                                                | 4H, 4M          | Cantina      | 2rd  |
+|  Goat Tech                                                                | 3H, 2M          | Cantina      | 3rd  |
+|  Gamma                                                                | 1M          | Sherlock      | 3rd |
+|  MorphL2                                                                | 1H, 3M          | Sherlock      | 4th  |
+|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 4th  |
+|  Mantra Dex                                                                | 2H, 4M          | Code4rena    | 11th  |
+|  Liquid Ron                                                                | 1M          | Code4rena    | -  |
+|  Asymmetry                                                                | 2H          | Code4rena      | -  |
+|  Popcorn                                                                | 1H          | Code4rena      | -  |
+
+
+
+
+## Immunefi findings
 
 | Vulnerability                                                                                                                                             | Severity      | Protocol     | 
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | 
@@ -19,19 +46,6 @@ This repository represents my collection of bug hunting findings for my portfoli
 | [Wrong emission of event](Immunefi/README.md#wrong-emission-of-event)                                                                                     | Informational | Revest       | 
 | [Wrong implementation of supportsInterface()](Immunefi/README.md#wrong-implementation-of-supportsinterface)                                               | Informational | Revest       | 
 
-## For Contests
-| Protocol                                                                                                                                             | Findings      | Platform     | Rank     | 
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | ------------ | 
-|  Goat Tech                                                                | 3H, 2M          | Cantina      | 3rd  |
-|  MorphL2                                                                | 1H, 3M          | Sherlock      | 4th  |
-|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 4th  |
-|  Gamma                                                                | 1M          | Sherlock      | 3rd  |
-|  Mantra Dex                                                                | 2H, 4M          | Code4rena    | 11th  |
-|  Asymmetry                                                                | 2H          | Code4rena      | -  |
-|  Popcorn                                                                | 1H          | Code4rena      | -  |
-
-## For Private audits
-1. [ArtTech](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md)
 
 ## Contacts
 

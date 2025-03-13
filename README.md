@@ -4,27 +4,27 @@ Security researcher with over 2 years of experience identifying and mitigating c
 
 ## Private audits
 
-| Protocol   | Provider      | Report     |  
-| -------- | -------- | ------- |
-|  Yuga NFT Mirror |  GuardianAudits | [Soon]() 
-|  Synthetix TLX |  GuardianAudits | [Soon]() 
-|  Orderly Network |  GuardianAudits | [Soon]() 
-|  ArtTech |  Art.Tech | [Link](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md) 
+| Protocol   |   Language  | Provider      | Report     |  
+| -------- | -------- | ------- |  ------- |
+|  Yuga NFT Mirror |  Solidity  |  GuardianAudits | [Soon]() 
+|  Synthetix TLX |   Solidity  | GuardianAudits | [Soon]() 
+|  Orderly Network |  Rust/Solana  |  GuardianAudits | [Soon]() 
+|  ArtTech |  Solidity  |  Art.Tech | [Link](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md) 
 
 
 
 ## Contests
-| Protocol                                                                                                                                             | Findings      | Platform     | Rank     | 
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------ | ------------ | 
-|  Farcaster-Attestation                                                                | 4H, 4M          | Cantina      | 2rd  |
-|  Goat Tech                                                                | 3H, 2M          | Cantina      | 3rd  |
-|  Gamma                                                                | 1M          | Sherlock      | 3rd |
-|  MorphL2                                                                | 1H, 3M          | Sherlock      | 4th  |
-|  Biconomy: Nexus                                                                | 2H, 1M          | Codehawks      | 4th  |
-|  Mantra Dex                                                                | 2H, 4M          | Code4rena    | 11th  |
-|  Liquid Ron                                                                | 1M          | Code4rena    | -  |
-|  Asymmetry                                                                | 2H          | Code4rena      | -  |
-|  Popcorn                                                                | 1H          | Code4rena      | -  |
+| Protocol                                                                                                                                             | Findings      | Language  | Platform     | Rank     | 
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | - | ----------- | ------------ | 
+|  Farcaster-Attestation                                                                | 4H, 4M          | Solidity  | Cantina      | 2rd  |
+|  Goat Tech                                                                | 3H, 2M          |Solidity  |  Cantina      | 3rd  |
+|  Gamma                                                                | 1M          | Solidity  | Sherlock      | 3rd |
+|  MorphL2                                                                | 1H, 3M          | Solidity  | Sherlock      | 4th  |
+|  Biconomy: Nexus                                                                | 2H, 1M          | Solidity  | Codehawks      | 4th  |
+|  Mantra Dex                                                                | 2H, 4M          |Rust/Cosmwasm  |  Code4rena    | 11th  |
+|  Liquid Ron                                                                | 1M          | Solidity  | Code4rena    | -  |
+|  Asymmetry                                                                | 2H          |Solidity  |  Code4rena      | -  |
+|  Popcorn                                                                | 1H          |Solidity  |  Code4rena      | -  |
 
 
 

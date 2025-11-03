@@ -1,6 +1,7 @@
 
 # About me
 Security researcher with over 2 years of experience identifying and mitigating critical vulnerabilities in high-profile blockchain protocols. I have consistently secured top 5 rankings in numerous contests on platforms such as Cantina, Sherlock, and Cyfrin.
+
 ## Contests
 | Protocol                                                                                                                                             | Findings      | Language  | Platform     | Rank     | 
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | - | ----------- | ------------ | 
@@ -11,10 +12,10 @@ Security researcher with over 2 years of experience identifying and mitigating c
 |  Biconomy: Nexus                                                                | 2H, 1M          | Solidity  | Codehawks      | 4th  |
 |  Liquid Ron                                                                | 1M          | Solidity  | Code4rena    | 10th  |
 |  Mantra Dex                                                                | 2H, 4M          | Rust/Cosmwasm  |  Code4rena    | 11th  |
+|  Solayer-bridge                                                                | 2H, 2M          | Rust/Solana  |  Cantina    | 12th  |
 |  Liquidity-book-vaults                                                                | 6M          | Solidity  |  Cantina    | 29th  |
 |  Asymmetry                                                                | 2H          | Solidity  |  Code4rena      | -  |
 |  Popcorn                                                                | 1H          | Solidity  |  Code4rena      | -  |
-
 
 ## Private audits
 
@@ -28,6 +29,27 @@ Security researcher with over 2 years of experience identifying and mitigating c
 |  ClizaAi |  Solidity  |  Cliza.ai | [Soon]() 
 
 
+
+## Private audits
+
+| Protocol   |   Language  | Provider      | Report     |  
+| -------- | -------- | ------- |  ------- |
+|  Yuga NFT Mirror |  Solidity  |  GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/YugaLabs/2025-02-05_YugaLabs_NFT_Shadows_2.pdf) 
+|  Synthetix TLX |   Solidity  | GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Synthetix/2025-03-01_Synthetix_TLX_V2.pdf) 
+|  Orderly Network |  Rust/Solana  |  GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Orderly/2025-03-21_Orderly_Solana_Staking.pdf) 
+|  Matrixdock |  Rust/Solana  |  Cyfrin | [Soon]() 
+|  NMT Smart wallet |  Solidity  |  Burra sec | [Private]() 
+|  Paymonade |  Solidity  |  Bail sec | [Soon]() 
+|  Supra Bridge |  Solidity  |  Supra Labs | [Private]() 
+|  ArtTech |  Solidity  |  Art.Tech | [Link](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md) 
+|  ClizaAi |  Solidity  |  Cliza.ai | [Private]()
+
+
+## Judging
+
+| Protocol     | Role |
+| - | - |
+| [Superform-core](https://cantina.xyz/code/ba62fa4e-f933-4eec-b9ac-868325f4a694/README.md) | Lead Judge
 
 
 ## Immunefi findings

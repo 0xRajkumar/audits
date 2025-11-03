@@ -26,13 +26,11 @@ Security researcher with over 2 years of experience identifying and mitigating c
 |  Synthetix TLX |   Solidity  | GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Synthetix/2025-03-01_Synthetix_TLX_V2.pdf) 
 |  Orderly Network |  Rust/Solana  |  GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Orderly/2025-03-21_Orderly_Solana_Staking.pdf) 
 |  Matrixdock |  Rust/Solana  |  Cyfrin | [Soon]() 
-|  NMT Smart wallet |  Solidity  |  Burra sec | [Private]() 
+|  NMT Smart wallet |  Solidity  |  Burra sec | Private 
 |  Paymonade |  Solidity  |  Bail sec | [Soon]() 
-|  Supra Bridge |  Solidity  |  Supra Labs | [Private]() 
+|  Supra Bridge |  Solidity  |  Supra Labs | Private 
 |  ArtTech |  Solidity  |  Art.Tech | [Link](https://github.com/0xRajkumar/audits/blob/main/Solo/ArtTech.md) 
-|  ClizaAi |  Solidity  |  Cliza.ai | [Private]()
-
-
+|  ClizaAi |  Solidity  |  Cliza.ai | Private
 ## Judging
 
 | Protocol     | Role |

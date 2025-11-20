@@ -26,6 +26,7 @@ Security researcher with over 2 years of experience identifying and mitigating c
 |  Synthetix TLX |   Solidity  | GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Synthetix/2025-03-01_Synthetix_TLX_V2.pdf) 
 |  Orderly Network |  Rust/Solana  |  GuardianAudits | [Link](https://github.com/GuardianAudits/Audits/blob/main/Orderly/2025-03-21_Orderly_Solana_Staking.pdf) 
 |  Matrixdock |  Rust/Solana  |  Cyfrin | [Soon]() 
+|  Alto lending |  Solidity  |  Bail sec | [Soon]() 
 |  NMT Smart wallet |  Solidity  |  Burra sec | Private 
 |  Paymonade |  Solidity  |  Bail sec | [Soon]() 
 |  Supra Bridge |  Solidity  |  Supra Labs | Private 
